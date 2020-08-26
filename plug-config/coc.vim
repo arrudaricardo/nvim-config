@@ -80,3 +80,8 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
+
+
+" Explorer 
+:nmap <space>e :CocCommand explorer<CR>
+

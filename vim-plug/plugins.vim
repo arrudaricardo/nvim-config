@@ -7,21 +7,21 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.local/share/nvim/plugged')
-     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
-     Plug 'junegunn/fzf.vim'
-     Plug 'ryanoasis/vim-devicons'
-     Plug 'Yggdroot/indentLine'
-     Plug 'tpope/vim-fugitive'
-     Plug 'tpope/vim-surround'
-     Plug 'tpope/vim-commentary'
-     Plug '907th/vim-auto-save'
-     Plug 'sheerun/vim-polyglot'
-     Plug 'jiangmiao/auto-pairs'
-     "Plug 'scrooloose/nerdtree'
-     Plug 'mhartington/oceanic-next'
-     Plug 'hzchirs/vim-material'
-     Plug 'arcticicestudio/nord-vim'
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
+	Plug 'junegunn/fzf.vim'
+	Plug 'ryanoasis/vim-devicons'
+	Plug 'Yggdroot/indentLine'
+	Plug 'tpope/vim-fugitive'
+	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-commentary'
+	Plug '907th/vim-auto-save'
+	Plug 'sheerun/vim-polyglot'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'mhartington/oceanic-next'
+	Plug 'hzchirs/vim-material'
+	Plug 'arcticicestudio/nord-vim'
+	Plug 'mhinz/vim-startify'
 call plug#end()
 
 " Automatically install missing plugins on startup

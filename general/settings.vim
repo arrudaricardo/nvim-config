@@ -1,12 +1,3 @@
-"    _____                           _    _____             __ _       
-"   / ____|                         | |  / ____|           / _(_)      
-"  | |  __  ___ _ __   ___ _ __ __ _| | | |     ___  _ __ | |_ _  __ _ 
-"  | | |_ |/ _ | '_ \ / _ | '__/ _` | | | |    / _ \| '_ \|  _| |/ _` |
-"  | |__| |  __| | | |  __| | | (_| | | | |___| (_) | | | | | | | (_| |
-"   \_____|\___|_| |_|\___|_|  \__,_|_|  \_____\___/|_| |_|_| |_|\__, |
-"                                                                 __/ |
-"                                                                |___/ 
-
 let g:auto_save = 1             " enable AutoSave on Vim startup 
 set clipboard=unnamed           " Copy paste between vim and everything else
 set nowrap                      " Display long lines as just one line"
@@ -35,4 +26,5 @@ set nobackup                    " This is recommended by coc
 set nowritebackup               " This is recommended by coc
 set updatetime=300              " Faster completion
 set timeoutlen=500              " By default timeoutlen is 1000 ms
-
+let g:netrw_banner=0            " Disable netrw
+:let g:netrw_banner=0

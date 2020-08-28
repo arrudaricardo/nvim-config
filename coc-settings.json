@@ -13,8 +13,8 @@
   },
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": true,
-  "explorer.icon.enableVimDevicons": false,
+  "explorer.previewAction.onHover": false,
+  "explorer.icon.enableVimDevicons": true,
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"

@@ -1,4 +1,3 @@
-
 let g:coc_global_extensions = [
       \ 'coc-snippets',
       \ 'coc-actions',
@@ -106,4 +105,3 @@ function! CocExplorerInited(filetype, bufnr)
   " transparent
   call setbufvar(a:bufnr, '&winblend', 10)
 endfunction"
-

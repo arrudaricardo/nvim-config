@@ -27,4 +27,3 @@ set nowritebackup               " This is recommended by coc
 set updatetime=300              " Faster completion
 set timeoutlen=500              " By default timeoutlen is 1000 ms
 let g:netrw_banner=0            " Disable netrw
-:let g:netrw_banner=0

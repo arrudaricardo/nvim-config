@@ -9,6 +9,7 @@ endif
 call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
+  Plug 'vim-airline/vim-airline'
 	Plug 'junegunn/fzf.vim'
 	Plug 'ryanoasis/vim-devicons'
 	Plug 'Yggdroot/indentLine'
